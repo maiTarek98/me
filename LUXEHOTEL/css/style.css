@@ -1,0 +1,478 @@
+@font-face
+{
+    font-family:'Poppins-Regular';
+    src: url('../fonts/Poppins-Regular.ttf');
+}
+body{
+
+    background-color: #ffffff;
+    color: black;
+    font-size: 16px;
+    font-family: 'Poppins-Regular';
+}
+
+.mainn{
+    display: none; 
+   top: 0;
+}
+.speed{
+   width: 0;
+   height:3px;
+   background-color: blue;
+}
+
+/* Satrt upper nav style */
+.upper-nav 
+{
+    line-height: 40px;
+    color: #828486;
+    background-color: #f3f2f2f7;
+    font-size: 14px;
+}
+.fa-twitter, .fa-facebook-f, .fa-linkedin-in, .fa-codepen
+{
+    margin-left: 20px;
+    color: #3b91ec;
+
+}
+/* End upper nav style */
+
+/* Start navbar style */
+/* .navbar.fixed
+{
+    top:0 ;
+} */
+.navbar{
+    background-color: white !important;
+    line-height: 80px;
+    /* position: fixed; */
+    width: 100%;
+    z-index: 9999;
+}
+.navbar-brand
+{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar-collapse li{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.jQstyle
+{
+    border-bottom: 3px solid #f18318;
+}
+/* End navbar style */
+
+
+/* Strat slider style */
+.btn1 .backbtn{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:0;
+    height:100%;
+    background-color: green;
+    z-index: 1;
+}
+.btn1 .btntext{
+    position: relative;
+    z-index:2;
+    color: #fff;
+}
+.backGround-img .img11
+{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/img_bg_5.jpg") center; 
+    background-size: cover;
+    height: 600px;
+} 
+.backGround-img .img12
+{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/img_bg_1.jpg") center; 
+    background-size: cover;
+    height: 600px;
+} 
+.backGround-img .img13
+{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/img_bg_3.jpg") center; 
+    background-size: cover;
+    height: 600px;
+} 
+.backGround-img .img14
+{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/img_bg_4.jpg") center; 
+    background-size: cover;
+    height: 600px;
+} 
+.slider
+{
+    /* line-height: 130px; */
+    color: #f5f3f3;
+}
+.slider span{
+    font-size: 18px;
+}
+
+.slider button
+{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 0px !important;
+    font-size: 14px;
+}
+.btn-warning {
+    background-color: #f18318;
+    padding: 15px 30px !important;
+    border-color: #f18318;
+}
+.btn-primary {
+    background-color: #3b91ec;
+    border-color: #3b91ec;
+}
+/* End slider style */
+
+/* Start book style */
+.book .container
+{
+    padding: 40px 30px;
+    background-color: #0e1a25eb;
+}
+.book input
+{
+    background: none;
+}
+.book label
+{
+    color: white;
+}
+.book .fa-calendar-alt
+{    right: 15px;
+
+    position: absolute;
+    margin-top: -27px;
+    color: #ababab;
+}
+.book .fa-arrow-down
+{
+    right: 15px;
+    position: absolute;
+    margin-top: -27px;
+    color: #ababab;
+}
+.book button
+{
+    margin-top: 30px;
+     border: none;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 0px !important;
+    font-size: 14px;
+}
+/* End book style */
+
+/* Start feature style */
+.feature
+{
+    margin: 90px 0;
+}
+.feature .fa-male,.fa-spa, .fa-car ,.fa-glass-cheers
+{
+    font-size: 50px;
+    color: blue;
+}
+.feature .iconss
+{
+    background: #eef3f1;
+    padding: 17px;
+    border-radius: 42px;
+    max-width: 90px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.feature h4{
+    margin-bottom: 20px;
+}
+.feature .colum{
+    padding-bottom: 30px;
+    
+}
+.feature span
+{
+    color: #82868a;
+}
+/* End feature style */
+
+/* Start room style */
+.room
+{
+    background-color: #ececec69;
+    padding: 70px 0;
+}
+ .star
+{
+    font-size: 12px;
+}
+ .star::after
+{
+    content: '';
+    display: block;
+    width: 110px;
+    background-color: #80808029;
+    height: 2px;
+    margin: 6px auto;
+}
+ h3::before
+{
+    content: '';
+    display: block;
+    width: 150px;
+    background-color: #80808029;
+    height: 2px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+ .star .checked
+{
+    color: orange;
+}
+ .texts
+{
+    margin-top: 30px;
+    color: #757272;
+}
+#owl-demo
+{
+    margin-top: 50px;
+}
+#owl-demo .item{
+    margin: 13px;
+  }
+  #owl-demo .item{
+    display: block;
+    width: 100%;
+    height: 570px;
+  }
+  .cards
+  {
+      margin-top: 90px;
+      background-color: white;
+      padding: 0px;
+  }
+  .cards img
+  {
+      width:100%;
+      padding-bottom: 20px;
+      height: 250px;
+  }
+  .cards .checked{
+      color: orange;
+  }
+  .cards .notchecked{
+    color: #ffa5005c;
+}
+.cards .fa-star
+{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.cards .price
+{
+    font-size: 30px;
+}
+.cards .price, small{
+    color:#3b91ec;
+    font-weight: bold;
+}
+.cards .info
+{
+    margin-bottom: 10px;
+}
+.cards li{
+    list-style-type: none;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.cards .buttn
+{
+    margin-bottom:40px ;
+    border: none;
+   color: white;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   border-radius: 20px;
+   font-size: 14px;
+}
+/* End room style */
+
+/* Start menus style */
+.menu
+{
+    padding: 70px 0;
+}
+.menu .texts
+{
+    margin-bottom: 60px;
+}
+.boxs button
+{
+    margin-top: 40px;
+    font-size: 18px;
+    border: none;
+    margin-left: 8px;
+}
+.boxs
+{
+    background-color: #f15e1cf0;    
+    margin-bottom: 150px;
+}
+.menu .bigImg{
+    width: 100%;
+    height: 600px;
+}
+.main li, .dessert li, .drink li
+{
+    list-style-type: none;
+}
+.roww:hover
+{
+    background-color: #f57824 !important;
+    height: 70px;
+}
+.roww img
+{
+    float: left;
+}
+.roww .info
+{
+    float: left;
+    margin-left: 10px;
+}
+.roww .dish-price
+{
+    float: right;
+    margin-right: 15px;
+}
+.main, .dessert, .drink 
+{
+    padding-top: 60px;
+    color: white;
+}
+.main .dish-price , .dessert .dish-price, .drink .dish-price
+{
+    font-size: 20px;
+}
+.main p , .dessert p, .drink p
+{
+    font-size: 12px;
+}
+.dish-main, .dish-dessert, .dish-drink
+{
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+/* End menus style */
+
+/* Start blog style */
+.blog .blog3
+{
+    width: 100%;
+    margin-bottom: 20px;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0, 0, 0, 0.4)),url("../images/blog-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.blog .blog1
+{
+    border-radius: 60px;
+    width: 90px;
+    height: 90px;
+}
+.blog p
+{
+    font-size: 22px;
+}
+.blog small{
+    color: #9c9fa27a;
+}
+
+/* End blog style */
+
+/* Satrt guest style */
+.guest{
+    padding-top: 60px;
+    background-color: #f1f1f1b5;
+}
+.guest .prson
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 70px;
+    margin-bottom: 20px;
+}
+.guest p{
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.guest small, h5
+{
+    color: #9c9fa2e8;
+}
+.card2
+{
+    background-color: white;
+    margin-bottom: 100px;
+}
+/* End guest style */
+
+/* Satrt newsletter style */
+.newsletter
+{
+    margin-top: -70px;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0, 0, 0, 0.6)),url("../images/img_bg_2.jpg") center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 440px;    
+    padding-top: 50px;
+}
+.newsletter .texts, .newsletter h3{
+    color: white !important;
+}
+.newsletter .form
+{
+    margin-top: 40px;
+}
+.newsletter .form input{
+  padding: 11px 20px;
+}
+.newsletter .form button
+{  
+    border: none;
+   color: white;
+   padding: 15px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   text-transform: uppercase;
+   margin-left: -4px;
+   border-radius: 0px !important;
+   font-size: 14px;
+}
+
+/* End newsletter style */

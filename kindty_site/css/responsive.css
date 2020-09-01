@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1090px) {
+    .behave .data {
+        width: 38%;
+    }
+    .behave .data .box {
+        
+        width: 19%;
+    }
+.sections .mid {
+    
+    margin: 30px 320px;
+}
+    .sections .right {
+        margin: -90px 40px;
+    }
+    .sections .left {
+        width: 65%;
+    }
+    .causes .card {
+        width: 24%;
+    }
+    .nav li a {
+    
+        margin-left: 30px;
+    }
+}

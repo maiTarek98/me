@@ -1,0 +1,306 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Resturant</title>
+      <meta name="description" content="هذا الموقع خاص بحجز أكل من المطعم">
+    <link rel="icon" type="image/png" href="image/file_bcf11a47-7451-464f-8c4d-c9d3e85e9146.png">
+    <link rel="stylesheet" href="style/foundation.css">
+    <link rel="stylesheet" href="assists/fontawesome/css/all.css">
+    <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/phone.css">
+    <link rel="stylesheet" href="assists/animation/animate.css">
+<style>
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: inline;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+  </style>
+
+  </head>
+  <body>
+      <div class="row expanded">
+        <div class="large-12 medium-12 small-12">
+          <header>
+            <div class="social">
+                <div class="row clearfix links">
+                <div class="large-8 medium-8 small-8 float-right">
+                    <div class="large-3 medium-3 small-6 columns">
+                        <i class="fas fa-phone-alt phone" aria-hidden="true"></i>
+                        <span class="pho">0102003044</span>
+                        </div>
+                   <div class="large-1 medium-1 small-1 columns">
+                        <span class="pho">|</span>
+                    </div>
+                    
+                    <div class="large-2 medium-12 small-12 columns">
+                       <a href="#"> <i class="fab fa-twitter"></i>
+                        تويتر</a>
+                    </div>
+                    <div class="large-2 medium-4 small-12 columns">
+                       <a href="#"> <i class="fab fa-instagram" ></i>
+                        انستجرام </a>
+                    </div>
+                    <div class="large-2 medium-4 small-12 columns">
+                       <a href="#"> <i class="fab fa-google"></i>
+                        جوجل</a>
+                    </div>
+                     <div class="large-2 medium-4 small-12 columns">
+                       <a href="#"> <i class="fab fa-facebook-f"></i>
+                        فيس بوك</a>
+                    </div>
+                    </div>
+                    <div class="large-3 medium-3 small-3 registeration float-left">
+                        <a href="#">تسجيل </a>
+                        <span class="pho">|</span>
+                        <a href="#" class="register">دخول</a>
+                     
+                    </div>
+                </div>
+            </div>  
+              <nav data-sticky-container>
+              <div class="top-bar">
+               <div class="row ">
+        <div class="large-12 medium-12 small-12 columns">    
+             <div class="top-bar-right float-right">
+                 <a href="index.html"><img id="small-logo" src="image/file_bcf11a47-7451-464f-8c4d-c9d3e85e9146.png"></a>
+            </div>
+                  <div class="top-bar-right float-right">
+                    <ul class="dropdown menu" data-dropdown-menu data-magellan>
+                      <li><a href="#">الصفحه الرئيسيه</a></li>
+                      <li><a href="#information">صور</a></li>
+                      <li><a href="#gallery">أكلات</a></li>
+                      <li><a href="#order">التوصيل</a></li>
+                      <li><a href="#about">عن المطعم</a></li>
+                    </ul>
+                  </div>
+
+                </div>
+             </div>
+                </div>
+             </nav>
+           
+        </header>
+        </div>
+      </div>
+      <section>
+         <div class="row expanded">
+         <div class="large-12 medium-12 small-12 columns info" id="information">
+
+        <div class="large-3 medium-6 small-12 columns wow bounceInDown" data-wow-duration="2s" >
+            <i class="fas fa-stroopwafel"></i>
+            <p>يتميز المطعم بتقديم الحلويات بأنواعها المختلفه والتي ينجذب اليها الكثير </p>
+             </div>
+               <div class="large-3 medium-6 small-12 columns wow bounceInDown" data-wow-duration="2s" >
+            <i class="fas fa-hamburger"></i>
+            <p>يتميز المطعم بتقديم كافه انواع البرجر بطرق وطهي مختلف </p>
+             </div>
+               <div class="large-3 medium-6 small-12 columns wow bounceInDown" data-wow-duration="2s" >
+            <i class="fas fa-pizza-slice"></i>
+            <p>يتميز المطعم بتقديم البيتزا الايطالي وانواعها المختلفه </p>
+             </div>
+               <div class="large-3 medium-6 small-12 columns wow bounceInDown" data-wow-duration="2s" >
+            <i class="fas fa-cocktail"></i>
+            <p>يتميز المطعم بتقديم انواع مختلفه من المشروبات الفريش والمشروبات الساخنه</p>
+             </div>
+          </div>
+          </div>
+      </section>
+    
+      
+      <section class="wow slideInLeft" data-wow-duration="2s" >
+         <div class="row expanded">
+         <div class="large-12 medium-12 small-12 columns food" id="order">
+             <h3>أكلات <span>الاسبوع</span></h3>
+              <div class="large-3 medium-6 small-6  columns week">
+                
+             <div class="card">
+                  <img src="image/th3.jpg">
+                  <div class="card-section">
+                    <a href="#">اطلب أوردر</a>
+                  </div>
+                </div>
+               </div>
+               <div class="large-3 medium-6 small-6 columns week">
+             
+                 <div class="card">
+                  <img src="image/Restaurant-Food-Photography-07-1024x682.jpg">
+                  <div class="card-section">
+                    <a href="#">اطلب أوردر</a>
+                  </div>
+                </div>
+               </div> 
+               <div class="large-3 medium-6 small-6 columns week">
+                 <div class="card">
+                  <img src="image/1476662440985.jpeg">
+                  <div class="card-section">
+                    <a href="#">اطلب أوردر</a>
+                  </div>
+                </div>
+               </div>
+               <div class="large-3 medium-6 small-6 columns week">
+                    <div class="card">
+                  <img src="image/pizza.jpg">
+                  <div class="card-section">
+                    <a href="#">اطلب أوردر</a>
+                  </div>
+                </div>
+               </div>
+             
+             
+               </div>
+          </div>
+      </section>
+       <section>
+         <div class="row">
+         <div class="large-12 medium-12 small-12 columns delivery clearfix" id="dilvry">
+              <div class="large-12 medium-12 small-12 columns">
+             
+             <h3>توصيل الطلبات </h3>
+            </div>
+          <div class="large-4 medium-4 small-4 columns squ wow slideInDown" data-wow-duration="2s">
+                 <h5>أول مره</h5>
+                <h2>مجانا</h2>
+                 <p>جرب اول مره اعمل حساب علي الموقع واطلب اوردر تحصل علي التوصيل مجانا </p>
+            </div>
+                 <div class="large-4 medium-4 small-4 columns squ wow slideInUp" data-wow-duration="2s">
+                 <h5>صاحب مكان</h5>
+                <h2>خصم 250 ج</h2>
+                 <p>عند طلبك توصيل اوردر ليصل الي 10 مرات فالشهر ستحصل علي كوبون بقيمه 250 ج</p>
+            </div>
+                 <div class="large-4 medium-4 small-4 columns squ wow slideInDown" data-wow-duration="2s">
+                   <h5>متوسط</h5>
+                <h2>خصم 150 ج</h2>
+                 <p>عند طلبك توصيل اوردر ليصل الي 5 مرات فالشهر ستحصل علي كوبون بقيمه 150 ج</p>
+            </div>
+          </div>
+           </div>
+      </section> 
+      
+       <section>
+         <div class="row expanded">
+         <div class="large-12 medium-12 small-12 columns review clearfix" id="about">
+              <h3>أراء العملاء</h3>
+            
+          <div class="large-4 medium-4 small-4 columns rev wow zoomInDown" data-wow-duration="2s">
+                 
+              <img src="image/avatar1.png">
+              <h5>أحمد </h5>
+               <img src="image/star.png" class="im">
+              <p>الاكل جيد جدا والمكان نظيف والأسعار مناسبه لجميع الأطباق</p>
+        </div>
+              <div class="large-4 medium-4 small-4 columns rev wow zoomInDown" data-wow-duration="2s">
+               <img src="image/avatar3.png">
+              <h5>منال</h5>
+               <img src="image/star.png" class="im">
+            <p>الاكل جيد جدا والمكان نظيف والأسعار مناسبه لجميع الأطباق</p>
+        </div>
+              <div class="large-4 medium-4 small-4 columns rev wow zoomInDown" data-wow-duration="2s">
+               <img src="image/avatar2.png">
+              <h5>محمد</h5>
+               <img src="image/star.png" class="im">
+              <p>الاكل جيد جدا والمكان نظيف والأسعار مناسبه لجميع الأطباق</p>
+        </div>
+           </div>
+        </div>
+      </section> 
+        <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+      
+        <script src="js/wow.min.js"></script>
+              <script>
+                    wow = new WOW(
+                      {
+                      boxClass:     'wow',      // default
+                      animateClass: 'animated', // default
+                      offset:       0,          // default
+                      mobile:       true,       // default
+                      live:         true        // default
+                    }
+                    )
+                    wow.init();
+              </script>
+               <script>
+                  filterSelection("all")
+                  function filterSelection(c) {
+                    var x, i;
+                    x = document.getElementsByClassName("filterDiv");
+                    if (c == "all") c = "";
+                    for (i = 0; i < x.length; i++) {
+                      w3RemoveClass(x[i], "show");
+                      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+                    }
+                  }
+                  
+                  function w3AddClass(element, name) {
+                    var i, arr1, arr2;
+                    arr1 = element.className.split(" ");
+                    arr2 = name.split(" ");
+                    for (i = 0; i < arr2.length; i++) {
+                      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+                    }
+                  }
+                  
+                  function w3RemoveClass(element, name) {
+                    var i, arr1, arr2;
+                    arr1 = element.className.split(" ");
+                    arr2 = name.split(" ");
+                    for (i = 0; i < arr2.length; i++) {
+                      while (arr1.indexOf(arr2[i]) > -1) {
+                        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+                      }
+                    }
+                    element.className = arr1.join(" ");
+                  }
+                  
+                  // Add active class to the current button (highlight it)
+                  var btnContainer = document.getElementById("myBtnContainer");
+                  var btns = btnContainer.getElementsByClassName("btn");
+                  for (var i = 0; i < btns.length; i++) {
+                    btns[i].addEventListener("click", function(){
+                      var current = document.getElementsByClassName("active");
+                      current[0].className = current[0].className.replace(" active", "");
+                      this.className += " active";
+                    });
+                  }
+                  </script>
+                  
+
+  </body>
+</html>

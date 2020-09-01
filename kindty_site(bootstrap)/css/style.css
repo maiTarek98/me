@@ -1,0 +1,576 @@
+@font-face
+{
+    font-family:'AlegreyaSans-Medium';
+    src: url('../fonts/AlegreyaSans-Medium.ttf');
+}
+body{
+    background-color: #ffffff;
+    color: black;
+    font-size: 16px;
+    font-family: 'AlegreyaSans-Medium';
+}
+/* start first nav */
+.upper-bar
+{
+    margin-top: 10px;
+}
+.icons 
+{
+    padding-left: 50px;
+}
+.icons a
+{
+  text-decoration: none;
+  color: #c5c1c1;
+  margin-left: 20px;
+  float: left;
+}
+
+.btns button
+{
+    display: inline-block;
+    width: 120px;
+    padding: 9px;
+    border: none;
+    text-decoration: none;
+    background-color: #dcdcdc3b;
+    margin-right: 3px;
+    font-family: 'AlegreyaSans-Medium';
+    font-size: 14px;
+
+}
+.btns .donate
+{
+    background-color: #e01c1c;
+    color: #fffffff7;
+}
+hr
+{
+    border: 0.7px solid #c5c1c1;
+}
+/* end first nav */
+
+
+/* start navbar */
+
+.nav.fixed
+{
+    top:0 ;
+}
+.nav{
+background-color: white !important;
+position: fixed;
+width: 100%;
+z-index: 9999;
+}
+.nav-link
+{
+    margin-left: 20px;
+    color: black !important;
+}
+
+.nav li a:hover
+{
+    color:#e01c1c !important;
+    padding: 2px;
+}
+.fa-search
+{
+    color: #ef1717;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.nav li .search
+{
+    width: 140px;
+    height: 30px;
+    margin-left: 5px; 
+    padding-left: 6px;
+    border-radius: 3px;
+    border: 2px solid #ef1717;
+}
+.nav li .search:focus
+{
+    padding: 6px;
+}
+
+/* end navbar */
+
+/* Start background site */
+.backGround
+{
+    margin-top: 70px;
+    background-image: url("../images/banner/home-banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.backGround .text 
+{
+    padding-top: 150px;
+    color: #f7f7f7fa;
+    text-align: center;
+}
+.backGround .text .small
+{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.backGround .text .small2
+{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.backGround .text .big 
+{
+    font-weight: bold;
+    font-size: 55px;
+}
+.backGround .donate
+{
+    background-color: #e01c1c;
+    color: #fffffff7;
+}
+.backGround button
+{
+    margin-top: 10px;
+    width: 120px;
+    padding: 9px;
+    border: none;
+    text-decoration: none;
+    background-color: #dcdcdc3b;
+    margin-right: 3px;
+    font-family: 'AlegreyaSans-Medium';
+    font-size: 14px;
+    color:#ffffffed; 
+    margin-bottom: 70px;
+}
+
+/* end background site */
+
+/* Start boxes */
+.sections
+{
+padding: 50px 0;
+
+}
+.sections #donation
+{    
+    background-color: #f3d44ae3;
+    float: left;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.sections #volunteer
+{    
+    background-color: #dc0950d1;
+    float: left;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.sections #plan
+{    
+    background-color: #5fe45bc9;
+    float: left;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.sections .left
+{
+    color: #ffffffed;
+    float: left;
+    max-width: 63%;
+}
+.sections .mid
+{
+    border-left: 1px solid #ffffffed;
+    height: 110px;
+    float: left;
+}
+
+.sections .right
+{
+    color:#ffffffed;
+    float: left;
+    font-size: 26px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+/* End boxes */
+
+/* Start behave */
+.behave
+{
+    margin-top: 60px;
+}
+
+.behave .data h2
+{
+ font-size: 36px;
+ font-weight: bold;
+}
+.behave .data p
+{
+ color: hsla(0, 5%, 15%, 0.761);
+ padding: 10px 0px;
+ padding-bottom: 40px;
+}
+.price
+{
+font-size: 36px;
+ font-weight: bold;
+ margin-left: 10px;
+}
+.behave .data img
+{
+   margin-top: -50px;
+   box-shadow:10px #c5c1c1;
+   
+}
+.behave .data .shadow
+{
+    background-color: #d8d1d14d;
+    padding: 20px;
+    margin-top: 50px;
+    width: 500px;
+    margin-bottom: 100px;
+}
+.behave .data .box
+{
+    border: 1px solid #c5c1c1;
+    padding: 20px;
+    margin-bottom: 20px;
+display: inline-block;
+}
+.behave .data b
+{
+    display: block;
+    font-size: 28px;
+   
+}
+.behave .data .fa-user-friends,.fa-database,.fa-book
+{
+    color: #ef1717 ;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+/* End behave */
+
+
+
+/* Start Causes */
+
+.causes
+{
+    background-color: #6762620a;
+}
+.causes h2
+{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.causes .txt
+{
+    color: #444242a6;
+    text-align: center;
+    padding: 20px 130px;
+}
+.card
+{
+float: left;
+ border: 1px solid white;
+ background-color: #fffffff7;
+ margin-bottom: 100px;
+}
+ .card-img-top
+{
+    width: 100%;
+    height: 250px;
+    padding-bottom: 10px;
+}
+ .card .space
+{
+    width: 0;
+    border-bottom: 3px solid #f72457db ;
+    float: left;
+    margin-top: -15px;
+}
+.h21
+{
+    width: 100%;
+    
+}
+ .card.num::after
+{
+    margin-top: -215px;
+    margin-right: 64px;
+    content: "75%";
+    background-color: #f72457db ;
+    width: 30px;
+    float: right;
+   color: white;
+   padding: 2px;
+}
+.card h2
+{
+    font-size: 24px;
+    margin-left: 10px;
+    font-weight: bold;
+    text-align: left;
+
+}
+ .card p
+{
+    color: #444242a6;
+    margin-left: 5px;
+    text-align: left;
+    width: 98%;
+}
+ .card button
+{
+    margin-top: 27px;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    text-decoration: none;
+    background-color: #fffffff7;
+    width: 50%;
+    float: left;
+    font-family: 'AlegreyaSans-Medium';
+    font-size: 16px;
+    color:black; 
+
+}
+ .card .red
+{
+    background-color: #f72457db;
+    color:#ffffffed; 
+
+}
+
+
+/* end Causes */
+
+/* start features */
+.features
+{
+    background:linear-gradient(rgb(15, 16, 47, 0.73),rgba(3, 7, 25, 0.62)), url("../images/feature-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color:#fffffff7;
+    width:100%;
+}
+.features h3
+{text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 40px;
+   
+}
+.features p{
+    text-align: center;
+    color: #c5c1c1;
+    padding-bottom: 100px;
+}
+.feture
+{
+    background-color: #6f727557;
+    float: left;
+    border: 2px solid #6f727557;
+    padding-top: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feture .fa-gem,.fa-cube,.fa-accessible-icon
+{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.feture h4
+{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+/* End features */
+
+/* Start Donor */
+.donor
+{
+  background-color: #b5b0b00d;
+}
+.donor .donor1
+{
+    margin-top: 130px;
+}
+.donor .donor1 span
+{
+  font-size: 47px;
+  color: #171819c9;
+}
+.donor .donor1 p
+{
+   padding-top: 18px;
+   color:#44424282;
+}
+.donor .donor2
+{ 
+    border: 4px solid #ffffff;
+    margin-top: 60px;
+    background-color: #fffffff7;
+    margin-bottom: 60px;
+    padding: 20px;
+}
+.donor .donor2 img
+{
+padding-bottom: 20px;
+}
+.donor .donor2 p
+{
+   color:#44424282;
+   padding-bottom: 17px;
+}
+.donor .donor2 b
+{
+    font-size: 20px;
+}
+.donor .donor2 .center
+{
+  padding-top: 10px;
+  color:#44424282;
+
+}
+/* End Donor */
+
+/* Satrt clients */
+.clients-logo img
+{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  opacity: .6;
+  margin-left: 80px;
+}
+/* End Clients */
+
+/* Start event */
+.event h3
+{text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    color: #000000cf;
+}
+.event p
+{
+    text-align: center;
+    color:#15161780;
+}
+.event .imgs
+{ 
+  margin-top: 70px;
+  float: left;
+}
+.events
+{
+    margin-bottom: 50px;
+}
+.event .imgs img
+{
+    float: left;
+}
+.event .imgs p{
+    float: left;
+    margin-left: 20px;
+    text-align: left;
+}
+.event .imgs .title
+{
+  font-size: 25px;
+  margin-top: 10px;
+  color: #000000cf;
+font-weight: bold;
+text-align: left;
+}
+
+/* End event */
+
+/* Start Footer */
+
+.footer
+{
+    background-color: #030a21ed;
+    padding-top: 50px;
+}
+.footer .about, .newsLetter, .instafeed
+{
+    color: #c5c1c194;        
+}
+.footer span h5
+{
+    color: white;
+}
+
+.footer .navigate
+{
+    color: #c5c1c194;
+}
+.footer .navigate .list
+{
+   list-style: none;
+   margin-left: -40px;
+   display: inline-block;
+}
+
+.footer .newsLetter input
+{
+   border: 1px solid gray;
+   background-color: #ee82ee00;;
+}
+.footer .newsLetter .sendIcon
+{
+    border: 1px solid #f9227ee3;
+    background-color: #f9227ee3;
+    display: inline-block;
+    color: #ffffffff;
+}
+.footer .instafeed img
+{
+    padding-top: 10px;
+}
+.footer .line-break{
+  border-bottom: 1px solid #c5c1c194;
+  width: 1250px;
+  margin: 0px 90px;
+  margin-top: 50px;
+}
+.footer .copyright
+{
+    margin-top: 30px;
+    float: left;
+    padding: 10px;
+    color: #c5c1c194;   
+}
+.footer .icons2
+{
+    height: auto;
+    margin-top: 30px;
+    float: left;
+    padding: 10px;
+    color: #c5c1c194;
+}
+.icons2 a
+{    
+  padding-left: 20px;
+  text-decoration: none;
+  color: #d6c8c894;
+  margin-left: 20px;
+  float: left;
+}
+/* ENd Footer */

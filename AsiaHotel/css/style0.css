@@ -1,0 +1,50 @@
+/*Start SignUp Page style*/
+.backgroundImg
+{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("../images/hotel-9.jpg") center;
+    background-size: cover;
+    height: 100vh;
+}
+h2
+{
+    padding-top: 20px;
+    color: white;
+}
+form{
+    padding-top: 60px;
+    width: 0px;
+    height: 0px;
+}
+.form-group .input, .pass
+{
+    width: 0px;
+    background: none;
+    border:none;
+    border-bottom: 2px solid #f16d10;
+    color: #ffffff;
+
+}
+.input::placeholder, .pass::placeholder
+{
+    color: white;
+}
+.form-group .input:focus, .pass:focus
+{
+    background: none;
+    border:none;
+    border: 2px solid #f16d10;
+    color: #ffffff;
+    transform: scale(1.1);
+    transition: 2s;
+}
+.fa-eye, .fa-eye-slash
+{
+    cursor: pointer;
+}
+.btn 
+{
+    margin-left: -1100px;
+    font-size: 20px;
+}
+
+/*End SignUp Page style*/

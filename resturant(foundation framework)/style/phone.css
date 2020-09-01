@@ -1,0 +1,63 @@
+@media only screen and (max-width: 1077px) {
+ 
+
+.top-bar li {
+    font-size: 18px;
+    }
+    #small-logo {
+    height: 120px;
+    width: 100px;
+}
+}
+@media only screen and (max-width: 1008px) {
+ 
+
+.top-bar li {
+    font-size: 14px;
+    }
+#small-logo {
+    height: 100px;
+    width: 80px;
+}
+}
+
+@media only screen and (max-width: 875px) {
+
+.top-bar li {
+    padding-right: 10px;
+    height: 35px;
+    
+}
+#small-logo {
+    height: 100px;
+    width: 80px;
+}
+
+}
+@media only screen and (max-width: 673px) {
+.top-bar li {
+    padding-right: 10px;
+    height: 15px;
+    
+}
+#small-logo {
+    height: 60px;
+    width: 40px;
+}
+    
+    
+}
+@media only screen and (max-width: 580px) {
+
+.card-section {
+    padding-right: 60px;
+    }
+}
+
+
+@media only screen and (max-width: 428px) {
+
+.card-section {
+    padding-right: 30px;
+    }
+}
